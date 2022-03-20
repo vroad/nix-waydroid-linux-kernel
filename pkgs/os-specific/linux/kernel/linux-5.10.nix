@@ -1,4 +1,4 @@
-{ linux_5_10 }:
+{ linux_5_10, ... }:
 
 linux_5_10.override (originalArgs: {
   kernelPatches = originalArgs.kernelPatches ++ [{

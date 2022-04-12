@@ -5,7 +5,7 @@ linux_5_10.override (originalArgs: {
     name = "waydroid-config";
     patch = null;
     extraConfig = ''
-      CGROUP_CPUACCT y
+      DRM_I915_LOW_LEVEL_TRACEPOINTS y
     '';
   }];
 })
